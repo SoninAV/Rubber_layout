@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+html {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+pre {
+    margin: 0;
+}
+
+.main {
+    width: 90%;
+    margin: 1vw auto; 
+    padding-bottom: 8vh;
+    font-family: sans-serif;
+    background-color: #faf8f1;
+    border-radius: 1.5rem;
+    color: #0e294c;
+    box-shadow: 0 0 1rem rgba(44, 28, 8, .3);
+}
+
+.menu {
+    font-size: 1.2rem;
+    padding: 1.5rem 5rem;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    height: 1.5rem;
+    vertical-align: bottom;
+}
+
+.main-nav {
+    float: right;
+}
+
+.menu-text {
+    margin-right: 3rem;
+}
+
+.menu-img img {
+    height: 1.5rem;
+    vertical-align: bottom;
+    margin-right: 1rem;
+}
+
+.left-block {
+    display: inline-block;
+    width: 30%;
+    vertical-align: 11vh;
+    margin: 1vh 2vw 0 12vw;
+}
+
+.left-block .title {
+    font-size: 4rem;
+    font-weight: normal;
+    font-family: 'Abril Fatface', serif;
+}
+
+.left-block p {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+
+.left-block>.btn {
+    display: inline-block;
+    font-size: 3rem;
+    padding: .4em 1.2em;
+    background-color: #0e294c;
+    color: white;
+    border-radius: 1em;
+}
+
+.right-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 35vw;
+}
+
+.right-block img {
+    width: 100%;
+}
+
+@media (1024px < width <= 1440px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (768px < width <= 1024px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (425px < width <= 768px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media (width <= 425px) {
+    html {
+        font-size: 6px;
+    }
+
+    .right-block {
+        display: block;
+        width: 80vw;
+    }
+
+    .left-block {
+        display: block;
+        width: 80vw;
+    }
+}
